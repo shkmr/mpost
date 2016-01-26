@@ -1,3 +1,6 @@
+%%
+%%
+%%
 beginfig(201)
   u:=10cm;
   vardef koch(expr A,B,n) =
@@ -71,6 +74,5 @@ beginfig(204)
   enddef;
   dragon(z0--z1,12);
 endfig;
-
 
 end.

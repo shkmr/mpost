@@ -48,4 +48,5 @@ beginfig(101);
   label.bot(btex $V_t$ etex, (1.5ux,0uy));
   label.top(btex $V_t$ etex, (-1.5ux,0uy));
 endfig;
+
 end.

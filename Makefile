@@ -10,7 +10,3 @@ latch.100 : latch.mp
 
 clean :
 	rm -f fractal.??? latch.??? *.log *.dvi *.pdf
-
-
-
-
