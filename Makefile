@@ -11,5 +11,8 @@ latch.100 : latch.mp
 fig.1001 : fig.mp
 	mpost fig.mp
 
+fig1001.svg : fig.mp
+	mpost -s 'outputtemplate="%j%c.svg"' -s 'outputformat="svg"' -s prologues=3 fig.mp
+
 clean :
 	rm -f fractal.??? latch.??? *.log *.dvi *.pdf
